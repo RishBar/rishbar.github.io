@@ -1,0 +1,21 @@
+img {
+  width: 500px; 
+  height: 400px;
+}
+
+a {
+  color: white;
+}
+
+.profile {
+  padding-top: 75px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.about-me {
+  margin-top: 35px;
+  width: 80%;
+}
