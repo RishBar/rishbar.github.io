@@ -18,26 +18,52 @@
       <a class="nav-link" href="/projects.html">Projects</a>
       <a class="nav-link" href="/blogs.html">Blogs</a>
     </nav>
-
-    <div class="profile">
-      <h3 class="greeting">Welcome to my portfolio!</h3>
-      <img src="1190-014.jpg" alt="barzman">
-
-      <div class="jumbotron about-me">
-        <h4>Hello world!</h4>
-        <p>I am Rishav Baral, a full-stack web developer who recently graduated from Lighthouse Labs, a web development bootcamp! I am pursuing a career as a full-stack web developer because I want to be able to solve real world problems. Solving problems is my passion, and programming is my favourite way to do this. I am always driven to improve myself so in the meantime I am building projects that let me express myself through programming.
-        I am very comfortable with both frontend and backend technologies. My main areas of focus are React and Ruby on Rails, and I am comfortable in my ability to learn new technologies quickly.
-        </p>
+    <div class="projects">
+      <div class="jumbotron project-flex shoot-io">
+        <a href="https://github.com/RishBar/shoot-io"><img src="Shoot-io.png" alt="Shoot-io"></a>
+        <div class="project-description">
+          <p>Shoot-io is multiplayer top-down shooter game developed with Phaser, a gaming framework made by <a href="http://www.photonstorm.com/">Photon Storm</a>. The game has been deployed with Heroku and is <a href="https://shoot-io.herokuapp.com/">playable.</a></p>
+          <p>Front end: Phaser, React</p>
+          <p>Back End: Node.js, Express, Socket.io, PostgreSQL</p>
+        </div>
       </div>
-
+      <div class="jumbotron project-flex scheduler">
+        <a href="https://github.com/RishBar/scheduler"><img src="Scheduler.png" alt="Scheduler"></a>
+        <div class="project-description">
+          <p>Scheduler is a single page web application that allows users to book, edit, and delete interviews. The schedule is served by a server running separately and interviews that are booked on the client side will update the server and automatically render the new appointment.</p>
+          <p>Front end: HTML, CSS, react</p>
+          <p>Back end: Node.js, Express, PostgreSQL, Axios</p>
+          <p>Testing environment: Jest, Storybook, Cypress</p>
+        </div>
+      </div>
+      <div class="jumbotron project-flex tweeter">
+        <a href="https://github.com/RishBar/tweeter"><img src="Tweeter.png" alt="Tweeter"></a>
+        <div class="project-description">
+          <p>Tweeter is a single page replica of twitter that allows users to post tweets.</p>
+          <p>Front end: HTML, CSS, JQuery, Bootstrap, SASS</p>
+          <p>Back end: Node.js, Express, Ajax</p>
+        </div>
+      </div>
+      <div class="jumbotron project-flex quizo">
+        <a href="https://github.com/RishBar/quizo"><img src="Quizo.png" alt="Quizo"></a>
+        <div class="project-description">
+          <p>Quizo is an application that allows you to make quizzes for any topic.</p>
+          <p>Front end: HTML, EJS, CSS, JQuery, Bootstrap</p>
+          <p>Back end: Node.js, Express, PostgreSQL, Ajax</p>
+        </div>
+      </div>
     </div>
+
     <footer class="page-footer font-small bg-dark">
-      <div class="footer-copyright text-center py-3">
+      <div class="footer-copyright text-center py-3 footerflex">
         <a href="https://www.linkedin.com/in/rishav-baral-2963921b3/">
-        @Rishav Baral <i class="fab fa-linkedin"></i></a>
+        linkedin <i class="fab fa-linkedin"></i></a>
+        <a href="https://twitter.com/rishav_baral">
+        twitter <i class="fab fa-twitter"></i></a>
+        <a href="https://github.com/RishBar">
+        github <i class="fab fa-github"></i></a>
       </div>
     </footer>
-
 
     
       <!-- JS, Popper.js, and jQuery -->

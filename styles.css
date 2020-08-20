@@ -1,6 +1,7 @@
-img {
+.profile img {
+  border-radius: 50%;
   width: 500px; 
-  height: 400px;
+  height: 330px;
 }
 
 a {
@@ -17,5 +18,63 @@ a {
 
 .about-me {
   margin-top: 35px;
+  width: 60%;
+}
+
+.footerflex {
+  display: flex;
+  justify-content: space-around;
+}
+
+.projects {
+  padding-top: 100px;
   width: 80%;
+  margin: auto;
+}
+
+.projects a {
+  color: blue;
+}
+
+.project-description {
+  width: 50%;
+  padding: 10px 0;
+}
+
+.project-flex {
+  display: flex;
+  justify-content: space-around;
+}
+
+.tweeter img {
+  width: 200px; 
+  height: 60px;
+}
+.shoot-io img {
+  width: 200px; 
+  height: 60px;
+}
+.scheduler img {
+  width: 200px; 
+  height: 60px;
+}
+.quizo img {
+  width: 200px; 
+  height: 60px;
+}
+
+.shoot-io a {
+  padding: 65px 0;
+}
+
+.scheduler a {
+  padding: 100px 0;
+}
+
+.tweeter a {
+  padding: 50px 0;
+}
+
+.quizo a {
+  padding: 50px 0;
 }
