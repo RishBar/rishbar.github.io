@@ -78,3 +78,57 @@ a {
 .quizo a {
   padding: 50px 0;
 }
+
+
+@media only screen and (max-width: 750px) {
+  .project-flex {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .project-description {
+    width: 100%;
+    padding: 10px 0;
+  }
+
+  .project-flex a {
+    padding: 10px 0;
+    text-align: center;
+  }
+  
+  .project-flex a {
+    padding: 10px 0;
+    text-align: center;
+  }
+  
+  .project-flex a {
+    padding: 10px 0;
+    text-align: center;
+  }
+  
+  .project-flex a {
+    padding: 10px 0;
+    text-align: center;
+  }
+
+  /* .tweeter img {
+    width: 200px; 
+    height: 60px;
+    text-align: center;
+  }
+  .shoot-io img {
+    width: 200px; 
+    height: 60px;
+    text-align: center;
+  }
+  .scheduler img {
+    width: 200px; 
+    height: 60px;
+    text-align: center;
+  }
+  .quizo img {
+    width: 200px; 
+    height: 60px;
+    text-align: center;
+  } */
+}
