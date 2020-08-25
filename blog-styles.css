@@ -1,0 +1,49 @@
+.dropdown-colour button {
+  color: white;
+}
+
+a {
+  color: white;
+}
+
+.title {
+  padding-top: 10px;
+}
+
+.blog {
+  padding-top: 75px;
+  padding-bottom: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.blog-post a {
+  color: blue;
+}
+
+.blog-post img {
+  width: 100%;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.blog-post {
+  margin-top: 35px;
+  width: 60%;
+}
+
+.caption {
+  font-size: smaller;
+}
+.footerflex {
+  display: flex;
+  justify-content: space-around;
+}
+
+@media only screen and (max-width: 750px) {
+  .blog-post {
+    width: 95%;
+  }
+}

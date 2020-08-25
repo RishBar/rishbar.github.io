@@ -1,3 +1,6 @@
+.dropdown-colour button {
+  color: white;
+}
 .profile img {
   border-radius: 50%;
   width: 500px; 
@@ -10,6 +13,7 @@ a {
 
 .profile {
   padding-top: 75px;
+  padding-bottom: 50px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -28,6 +32,7 @@ a {
 
 .projects {
   padding-top: 100px;
+  padding-bottom: 50px;
   width: 80%;
   margin: auto;
 }

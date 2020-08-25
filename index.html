@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <!-- CSS only -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-    <link rel="stylesheet" href="/styles.css">
+    <link rel="stylesheet" href="/project-portfolio-styles.css">
     <script src="https://kit.fontawesome.com/d836d0b194.js" crossorigin="anonymous"></script>
 
     <title>Rishav Baral</title>
@@ -16,26 +16,32 @@
     <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
       <a class="nav-link" href="/index.html">Home</a>
       <a class="nav-link" href="/projects.html">Projects</a>
-      <a class="nav-link" href="/blogs.html">Blogs</a>
+      <div class="dropdown dropdown-colour">
+        <button type="button" class="btn dropdown-toggle" data-toggle="dropdown">
+          Blog Posts
+        </button>
+        <div class="dropdown-menu dropdown-menu-right">
+          <a class="dropdown-item" href="/learning-rails-2020.html">Learning Rails in 2020</a>
+        </div>
+      </div>
     </nav>
 
     <div class="profile">
-      <h3 class="greeting">Welcome to my portfolio!</h3>
       <img src="1190-014.jpg" alt="barzman">
 
       <div class="jumbotron about-me">
-        <h4>Hello world!</h4>
+        <h4>About me</h4>
         <p>I am Rishav Baral, a full-stack web developer who recently graduated from Lighthouse Labs, a web development bootcamp! I am pursuing a career as a full-stack web developer because I want to be able to solve real world problems. Solving problems is my passion, and programming is my favourite way to do this. I am always driven to improve myself so in the meantime I am building projects that let me express myself through programming.
         I am very comfortable with both frontend and backend technologies. My main areas of focus are React and Ruby on Rails, and I am comfortable in my ability to learn new technologies quickly.
         </p>
       </div>
 
     </div>
-    <footer class="page-footer font-small bg-dark">
+    <footer class="page-footer font-small bg-dark fixed-bottom">
       <div class="footer-copyright text-center py-3 footerflex">
         <a href="https://www.linkedin.com/in/rishav-baral-2963921b3/">
         linkedin <i class="fab fa-linkedin"></i></a>
-        <a href="https://twitter.com/rishav_baral">
+        <a href="https://twitter.com/rishavbaral6">
         twitter <i class="fab fa-twitter"></i></a>
         <a href="https://github.com/RishBar">
         github <i class="fab fa-github"></i></a>
