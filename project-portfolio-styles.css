@@ -59,6 +59,11 @@ a {
   width: 200px; 
   height: 60px;
 }
+.shoppingfy img {
+  width: 200px; 
+  height: 60px;
+}
+
 .scheduler img {
   width: 200px; 
   height: 60px;
@@ -69,6 +74,10 @@ a {
 }
 
 .shoot-io a {
+  padding: 65px 0;
+}
+
+.shoppingfy a {
   padding: 65px 0;
 }
 
