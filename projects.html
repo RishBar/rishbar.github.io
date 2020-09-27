@@ -1,90 +1,58 @@
 <!DOCTYPE html>
-<html class="no-js"> <!--<![endif]-->
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <!-- CSS only -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-    <link rel="stylesheet" href="/project-portfolio-styles.css">
-    <script src="https://kit.fontawesome.com/d836d0b194.js" crossorigin="anonymous"></script>
-
-    <title>Projects</title>
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-  </head>
-  <body>
-    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-      <a class="nav-link" href="/index.html">Home</a>
-      <a class="nav-link" href="/projects.html">Projects</a>
-      <div class="dropdown dropdown-colour">
-        <button type="button" class="btn dropdown-toggle" data-toggle="dropdown">
-          Blog Posts
-        </button>
-        <div class="dropdown-menu dropdown-menu-right">
-          <a class="dropdown-item" href="/learning-rails-2020.html">Learning Rails in 2020</a>
-        </div>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="index.css">
+  <script src="https://kit.fontawesome.com/d836d0b194.js" crossorigin="anonymous"></script>
+  <title>Rishav Baral</title>
+</head>
+<body>
+  <div class="main-flex">
+    <div class="profile-flex">
+      <a href="/index.html"><img src="1190-014.jpg" alt="barzman"></a>
+      <div class="socials-flex">
+        <a href="https://www.linkedin.com/in/rishav-baral-2963921b3/">
+        <i class="fab fa-linkedin"></i></a>
+        <a href="https://twitter.com/rishavbaral6">
+        <i class="fab fa-twitter"></i></a>
+        <a href="https://github.com/RishBar">
+        <i class="fab fa-github"></i></a>
+        <a href="https://github.com/RishBar">
+        <a href="mailto:rishav@baral.ca">
+        <i class="far fa-envelope"></i></a>
       </div>
-    </nav>
+      <p>Rishav Baral<br>Full Stack Web Developer</p>
+      <a class="profile-links" href="/">About</a>
+      <a class="profile-links" href="/projects.html">Projects</a>
+      <a class="profile-links" href="/blog.html">Blog</a>
+    </div>
     <div class="projects">
-      <div class="jumbotron project-flex shoppingfy">
-        <a href="https://github.com/RishBar/shoppingfy"><img src="shoppingfy.png" alt="shoppingfy"></a>
+      <div class="project shoppingfy">
+        <a href="https://shoppingfy.herokuapp.com/"><img src="shoppingfy.png" alt="shoppingfy"></a>
         <div class="project-description">
-          <p>Shoppingfy is a naive implementation of Shopify. The app has been deployed with Heroku <a href="https://shoppingfy.herokuapp.com/">here.</a></p>
-          <p>This app was built with Ruby on Rails 6, and the front end uses raw css and bootstrap</p>
-          <p>Testing environment: Minitest</p>
+          <p>Shoppingfy is a naive implementation of Shopify. The app has been deployed with Heroku, click the logo to be taken to the website. This app was built with Ruby on Rails 6, and the reasoning behind making the app was to gain a better understanding of how Shopify's database works. I had a lot of fun building the website, and it gave me an introduction to storing uploaded images with AWS s3 buckets.</p>
         </div>
       </div>
-      <div class="jumbotron project-flex shoot-io">
-        <a href="https://github.com/RishBar/shoot-io"><img src="Shoot-io.png" alt="Shoot-io"></a>
+      <div class="project shoot-io">
+        <a href="https://shoot-io.herokuapp.com/"><img src="Shoot-io.png" alt="Shoot-io"></a>
         <div class="project-description">
-          <p>Shoot-io is multiplayer top-down shooter game developed with Phaser, a gaming framework made by <a href="http://www.photonstorm.com/">Photon Storm</a>. The game has been deployed with Heroku and is <a href="https://shoot-io.herokuapp.com/">playable.</a></p>
-          <p>Front end: Phaser, React</p>
-          <p>Back End: Node.js, Express, Socket.io, PostgreSQL</p>
+          <p>Shoot-io is multiplayer top-down shooter game developed with Phaser, a gaming framework made by <a href="http://www.photonstorm.com/">Photon Storm</a>. The game has been deployed with Heroku, click the logo to play the game, but you will need a mouse and keyboard and somebody to play with. This app was built with phaser, express and socket.io and was a lot of fun to build as my final project for Lighthouse Labs with my partner Brandon Macleod.</a></p>
         </div>
       </div>
-      <div class="jumbotron project-flex scheduler">
+      <div class="project scheduler">
         <a href="https://github.com/RishBar/scheduler"><img src="Scheduler.png" alt="Scheduler"></a>
         <div class="project-description">
-          <p>Scheduler is a single page web application that allows users to book, edit, and delete interviews. The schedule is served by a server running separately and interviews that are booked on the client side will update the server and automatically render the new appointment.</p>
-          <p>Front end: HTML, CSS, react</p>
-          <p>Back end: Node.js, Express, PostgreSQL, Axios</p>
-          <p>Testing environment: Jest, Storybook, Cypress</p>
+          <p>Scheduler is a single page web application built with react that allows users to book, edit, and delete interviews. The schedule is served by an api running separately and interviews that are booked on the client side will update the api and automatically render the new appointment. The app has not been deployed however you can click the logo to find the github repository and follow the README to get the app running locally.</p>
         </div>
       </div>
-      <div class="jumbotron project-flex tweeter">
-        <a href="https://github.com/RishBar/tweeter"><img src="Tweeter.png" alt="Tweeter"></a>
-        <div class="project-description">
-          <p>Tweeter is a single page replica of twitter that allows users to post tweets.</p>
-          <p>Front end: HTML, CSS, JQuery, Bootstrap, SASS</p>
-          <p>Back end: Node.js, Express, Ajax</p>
-        </div>
+      <div class="project tweeter">
+
       </div>
-      <div class="jumbotron project-flex quizo">
-        <a href="https://github.com/RishBar/quizo"><img src="Quizo.png" alt="Quizo"></a>
-        <div class="project-description">
-          <p>Quizo is an application that allows you to make quizzes for any topic.</p>
-          <p>Front end: HTML, EJS, CSS, JQuery, Bootstrap</p>
-          <p>Back end: Node.js, Express, PostgreSQL, Ajax</p>
-        </div>
+      <div class="project quizo">
+
       </div>
     </div>
-
-    <footer class="page-footer font-small bg-dark fixed-bottom">
-      <div class="footer-copyright text-center py-3 footerflex">
-        <a href="https://www.linkedin.com/in/rishav-baral-2963921b3/">
-        linkedin <i class="fab fa-linkedin"></i></a>
-        <a href="https://twitter.com/rishavbaral6">
-        twitter <i class="fab fa-twitter"></i></a>
-        <a href="https://github.com/RishBar">
-        github <i class="fab fa-github"></i></a>
-      </div>
-    </footer>
-
-    
-      <!-- JS, Popper.js, and jQuery -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
-    <script src="/script.js" async defer></script>
-  </body>
+  </div>
+</body>
 </html>
